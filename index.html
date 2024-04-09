@@ -3,50 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Home Page</title>
+    <title>Your Name - GitHub Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
         }
-
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            text-align: center;
         }
-
         h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .downloads {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .download-item {
+            margin-bottom: 10px;
+        }
+        .download-item a {
+            text-decoration: none;
             color: #333;
         }
-
-        p {
-            color: #666;
-        }
-
-        a {
+        .download-item a:hover {
             color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Simple Home Page</h1>
-        <p>This is a basic home page created using HTML and CSS.</p>
-        <p>Here are some things you can do:</p>
-        <ul>
-            <li><a href="downloads.html">View Downloads</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
+
+<div class="container">
+    <h1>Welcome to Your Name's GitHub Page</h1>
+    
+    <div class="downloads">
+        <h2>Download Library</h2>
+        <div class="download-item">
+            <a href="#">Download Item 1</a>
+        </div>
+        <div class="download-item">
+            <a href="#">Download Item 2</a>
+        </div>
+        <div class="download-item">
+            <a href="#">Download Item 3</a>
+        </div>
+        <!-- Add more download items as needed -->
     </div>
+</div>
+
 </body>
 </html>
