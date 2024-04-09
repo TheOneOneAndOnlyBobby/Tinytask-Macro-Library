@@ -3,11 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My C++ Website</title>
+    <style>
+        body {
+            font-family: Consolas, monospace;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #66d9ef;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #66d9ef;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .cpp-code {
+            background-color: #272822;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is a simple home page.</p>
-    <p>Check out our <a href="downloads.html">downloads</a> section.</p>
+    <div class="container">
+        <h1>Welcome to My C++ Website!</h1>
+        <p>This is a simple, programming-themed home page.</p>
+        <p>Check out our <a href="downloads.html">downloads</a> section.</p>
+        <div class="cpp-code">
+            <code>
+                #include &lt;iostream&gt;<br>
+                <br>
+                int main() {<br>
+                &emsp;std::cout &lt;&lt; "Hello, world!" &lt;&lt; std::endl;<br>
+                &emsp;return 0;<br>
+                }
+            </code>
+        </div>
+    </div>
 </body>
 </html>
